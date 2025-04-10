@@ -18,7 +18,7 @@ void main()
 
 	do
 	{
-		printf("%d * %d = %d\n",count,table_no,count*table);
+		printf("%d * %d = %d\n",count,table_no,count*table_no);
 
 		count++;
 	
