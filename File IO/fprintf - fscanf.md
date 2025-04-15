@@ -53,3 +53,9 @@ int main()
     return 0;
 }
 ```
+
+```
+Reading from file:
+Name: nova, Course: C, Gender: M
+Name: vishnu, Course: C, Gender: M
+```
