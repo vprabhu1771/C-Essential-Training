@@ -54,6 +54,8 @@ int main()
 }
 ```
 
+# OUTPUT
+
 ```
 Reading from file:
 Name: nova, Course: C, Gender: M
