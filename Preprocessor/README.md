@@ -111,9 +111,10 @@ printf("File: %s, Line: %d\n", __FILE__, __LINE__);
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
     printf("%s", __FILE__);
+    return 0;
 }
 ```
 
@@ -121,9 +122,10 @@ void main()
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
     printf("%d", __LINE__);
+    return 0;
 }
 ```
 
@@ -131,9 +133,10 @@ void main()
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
     printf("%s", __DATE__);
+    return 0;
 }
 ```
 
@@ -141,9 +144,10 @@ void main()
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
     printf("%s", __TIME__);
+    return 0;
 }
 ```
 
@@ -151,12 +155,13 @@ void main()
 #include<stdio.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
     #ifdef __STDC__
     printf("The compiler conforms to the ANSI C standard.\n");
     #else
         printf("The compiler does not conform to the ANSI C standard.\n");
     #endif
+    return 0;
 }
 ```
