@@ -15,15 +15,15 @@ void main()
 	clrscr();
 
 	
-	pritf("x = %d", x);
+	printf("x = %d", x);
 
-	pritf("y = %d", y);
+	printf("y = %d", y);
 	
 	printf("%d > %d || %d != %d\n", x, y, x, y);
 
 
 	// direct result printing
-	pritf("%d\n", x > y || x != y);
+	printf("%d\n", x > y || x != y);
 
 
 	// store result then printing	

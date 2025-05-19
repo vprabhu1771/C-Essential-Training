@@ -36,7 +36,7 @@ void main()
 
 		puts(“Enter employee name\n”);
 
-		scanf(“%s”, engineers[i].name);
+		scanf(“%s”, engineers[i].emp_name);
 
 		puts(“Enter employee salary\n”);
 

@@ -26,9 +26,9 @@ void main()
 	printf(“price ptr address : %p\n”, price_ptr);
 
 	// display values
-	printf(“price data : %d\n”, age);
+	printf(“price data : %f\n”, price);
 
-	printf(“price ptr data : %d\n”, *age_ptr);
+	printf(“price ptr data : %f\n”, *price_ptr);
 
 	// get output window front to user
 	getch();

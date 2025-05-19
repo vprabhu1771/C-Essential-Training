@@ -23,7 +23,7 @@ void main()
 
 	printf(“%d - %d - %d\n”, abi.date, abi.month, abi.year);
 
-	printf(“%d - %d - %d\n”, abi.date, abi.month, abi.year);
+	printf(“%d - %d - %d\n”, ram.date, ram.month, ram.year);
 
 	getch();
 }
